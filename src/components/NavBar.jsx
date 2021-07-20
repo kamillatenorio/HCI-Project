@@ -21,7 +21,7 @@ function NavBar() {
                 <div>
                     <div className="linkSign">
                         <a href="/login">SIGN IN  |  </a>     
-                        <a href="/login">SIGN UP</a>
+                        <a href="/signup">SIGN UP</a>
                     </div>
                 </div>
             </div>
