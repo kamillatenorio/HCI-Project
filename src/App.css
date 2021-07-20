@@ -81,12 +81,18 @@ body {
   font-family: Palatino;
 }
 
+.links{
+  text-decoration: none;
+  color:white;
+  font-size: 15px;
+}
+
 .blue_button{
   background-color: #3D5287;
   color: white;
   border-radius: 5px;
   font-size: medium;
-  margin-left: 160px;
+  margin-left: 300px;
   text-decoration: none;
 }
 
@@ -102,13 +108,13 @@ body {
   font-family: 'Poppins', sans-serif;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 160px;
+  margin-left: 300px;
 }
 
 .experiments_table{
   margin-top: 30px;
   margin-right: 50px;
-  margin-left: 160px;
+  margin-left: 300px;
 }
 
 @media only screen and (max-width:850px) {
