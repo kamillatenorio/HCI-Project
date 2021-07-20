@@ -6,6 +6,11 @@ import Login from '../src/views/Login.jsx';
 import SignUp from '../src/views/SignUp.jsx';
 import UserProfile from '../src/views/UserProfile.jsx';
 import NewExperiment from './views/NewExperiment';
+import Scope from './views/experimentPhases/Scope';
+import Planning from './views/experimentPhases/Planning';
+import Operation from './views/experimentPhases/Operation';
+import Analysis from './views/experimentPhases/Analysis';
+import Report from './views/experimentPhases/Report';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,6 +24,11 @@ function App() {
             <Route path="/login" component = {Login}/>
             <Route path="/userprofile" component = {UserProfile}/>
             <Route path="/newexperiment" component = {NewExperiment}/>
+            <Route path="/scope" component = {Scope}/>
+            <Route path="/planning" component = {Planning}/>
+            <Route path="/operation" component = {Operation}/>
+            <Route path="/analysis" component = {Analysis}/>
+            <Route path="/report" component = {Report}/>
             <Redirect to="/"/>
         </Switch>
       </ BrowserRouter>    
