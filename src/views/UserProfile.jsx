@@ -13,6 +13,7 @@ class UserProfile extends Component {
                 <span style={{color: "#3D5287"}}>Joana Vicente</span> <br />
                 <span>1 Followers | 0 Following</span>
                 <br />
+
                 <button className="blue_button">Edit Profile</button>
             </div>
         </div>   
