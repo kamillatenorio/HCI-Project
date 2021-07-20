@@ -58,11 +58,15 @@ body {
 
 .NavBar .rightSide .BRflag{
   max-height: 50px;
+  width:50px;
+  height: 100px;
   /* display: flex; */
 }
 
 .NavBar .rightSide .USAflag{
-  max-height: 30px;
+  max-height: 50px;
+  width: 50px;
+  height: 30px;
   /* display: flex; */
 }
 
@@ -77,6 +81,35 @@ body {
   font-family: Palatino;
 }
 
+.blue_button{
+  background-color: #3D5287;
+  color: white;
+  border-radius: 5px;
+  font-size: medium;
+  margin-left: 160px;
+  text-decoration: none;
+}
+
+#profile_image{
+  max-width: 100px;
+  margin-top: 60px;
+  margin-left: 160px;
+}
+
+#profile_information{
+  color: black;
+  font-size: large;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 160px;
+}
+
+.experiments_table{
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 160px;
+}
 
 @media only screen and (max-width:850px) {
   .NavBar .leftSide .links a {
