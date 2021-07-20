@@ -5,23 +5,27 @@ class SignUp extends Component {
   render() {
     return (
         <div >
+            <center>
                 <p >Sign Up for EXPERIMENTE</p>
                 <form >
                     <label for="username">Username</label>
-                    <input type="text" class="input_data" id="username"/>
+                    <input type="text" class="input_data" id="username"/><br/>
                     
                     <label for="password">Password</label>
-                    <input type="text" class="input_data" id="password"/>
+                    <input type="text" class="input_data" id="password"/><br/>
 
                     <label for="email">Password</label>
-                    <input type="text" class="input_data" id="email"/>
+                    <input type="text" class="input_data" id="email"/><br/>
 
                    
-                    <Link to={{ pathname: '/login' }}  >
-                        <button onClick={this.selladd}>Create a New Account</button>
-                    </Link>
+                    <button>
+                      <a href="/login" >
+                        Create a New Account
+                      </a>
+                    </button>
                 </form>
-            </div>
+            </center> 
+        </div>
     )
   }
 }
