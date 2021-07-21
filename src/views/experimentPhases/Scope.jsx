@@ -15,7 +15,10 @@ class Scope extends Component {
         <div style={{ width: '80%' }}>
           <Tabs id="uncontrolled-tab-example" className="mb-3">
             <Tab eventKey="scope" title="Scope">
-              <div className="experimentDiv">
+
+              <Tabs id="uncontrolled-tab-example2" className="mb-3">
+                <Tab eventKey="objective" title="Definition of Objective">
+                <div className="experimentDiv">
                 <p className="experimentTitle">Definition of objective</p>
                 <hr class="dotted experimentDot"></hr>
 
@@ -52,7 +55,99 @@ class Scope extends Component {
                 <button className='blue_button saveButton'>Save</button>
 
               </div>
+                </Tab>
 
+                <Tab eventKey="others" title="Others">
+
+                <div className="experimentDiv">
+                <p className="experimentTitle">PICOC</p>
+                <hr class="dotted experimentDot"></hr>
+
+
+                <label htmlFor="quality" className="experimentLabel">Population</label>
+                <input type="text" name="quality" id="quality" className="experimentInput" />
+
+                <br />
+                <br />
+
+                <label htmlFor="quality" className="experimentLabel">Intervation</label>
+                <input type="text" name="quality" id="quality" className="experimentInput" />
+
+                <br />
+                <br />
+
+                <label htmlFor="quality" className="experimentLabel">Comparsion</label>
+                <input type="text" name="quality" id="quality" className="experimentInput" />
+
+                <br />
+                <br />
+
+                <label htmlFor="quality" className="experimentLabel">Outcome</label>
+                <input type="text" name="quality" id="quality" className="experimentInput" />
+
+                <br />
+                <br />
+
+                <label htmlFor="quality" className="experimentLabel">Context</label>
+                <input type="text" name="quality" id="quality" className="experimentInput" />
+
+                <br />
+
+                <button className="blue_button saveButton">Save</button>
+              </div>
+
+              <br/>
+
+              <div className="experimentDiv">
+                <p className="experimentTitle">Research Questions</p>
+                <hr class="dotted experimentDot"></hr>
+
+
+                <label htmlFor="quality" className="experimentLabel">RQ1</label>
+                <input type="text" name="quality" id="quality" className="experimentInput" value="Some question?"/>
+
+                <br />
+                <br />
+
+                <label htmlFor="quality" className="experimentLabel">RQ2</label>
+                <input type="text" name="quality" id="quality" className="experimentInput" value="Some question 2?"/>
+
+                <br />
+
+                <button className="blue_button saveButton">Add Question</button>
+              </div>
+
+              <br/>
+
+              <div className="experimentDiv">
+                <p className="experimentTitle">Practitioner notes</p>
+                <hr class="dotted experimentDot"></hr>
+
+
+                <label htmlFor="quality" className="experimentLabel"> What is already known about this topic?</label> <br/>
+                <textarea name="quality" id="quality" className="experimentTextArea" rows='6'/>
+
+                <br />
+                <br />
+
+                <label htmlFor="quality" className="experimentLabel"> What this paper add?</label> <br/>
+                <textarea name="quality" id="quality" className="experimentTextArea" rows='6'/>
+
+                <br />
+                <br />
+
+                <label htmlFor="quality" className="experimentLabel"> Implications for practice and/or policy </label> <br/>
+                <textarea name="quality" id="quality" className="experimentTextArea" rows='6'/>
+
+                <br />
+
+                <button className="blue_button saveButton">Save</button>
+              </div>
+
+              <br/>
+
+                </Tab>
+              </Tabs>
             </Tab>
             <Tab eventKey="planning" title="Planning">
               <h1>Planning</h1>
