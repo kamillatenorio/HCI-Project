@@ -99,6 +99,44 @@ body {
   text-decoration: none;
 }
 
+.saveButton{
+  height: 60px;
+  width: 150px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.experimentDiv{
+  background-color: #F5F5F5;
+  border-radius: 15px;
+
+  overflow: hidden;
+}
+
+.experimentLabel{
+  font-weight: bold;
+  margin: 10px;
+}
+
+.experimentInput{
+    width: 75%;
+    float: right;
+    border-radius: 20px;
+    margin: 10px;
+ }
+
+ .experimentTitle{
+   font-size: x-large;
+   margin-left: 10px;
+   font-weight: bold; 
+   padding-top: 20px;
+  }
+
 #profile_image{
   max-width: 100px;
 
@@ -109,6 +147,9 @@ body {
   display: inline-block;
 }
 
+.doted .experimentDot{
+  width: 80%;
+}
 
 #profile_information{
   color: black;
@@ -235,8 +276,15 @@ body {
   logo {
       color: white;
       font-family: 'Times New Roman', Times, serif
+  } 
+
+  .creatingExperiment{
+
   }
 
+  .data{
+    background-color: tomato !important;
+  }
   .new_experiment_label{
     color: tomato;
   }

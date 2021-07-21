@@ -1,33 +1,73 @@
 import React, { Component } from 'react';
 import '../../App.css';
+import { Tabs, Tab } from 'react-bootstrap';
 
 class Scope extends Component {
   render() {
     return (
-      <div style={{ width: '100%', marginLeft: '19%', marginRight: '16%' }}>
+      <div style={{ width: '80%', marginLeft: '19%', marginRight: '16%' }}>
         <div>
           <p style={{
             fontWeight: 'bold', fontSize: 'xx-large', marginTop: '20px',
             color: '#727070'
           }}>Joana Vicente | Gamification and Flow Experience</p>
         </div>
+        <div style={{ width: '80%' }}>
+          <Tabs id="uncontrolled-tab-example" className="mb-3">
+            <Tab eventKey="scope" title="Scope">
+              <div className="experimentDiv">
+                <p className="experimentTitle">Definition of objective</p>
+                <hr class="dotted experimentDot"></hr>
 
-        <AppBar position="static">
-  <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-    <Tab label="Item One" {...a11yProps(0)} />
-    <Tab label="Item Two" {...a11yProps(1)} />
-    <Tab label="Item Three" {...a11yProps(2)} />
-  </Tabs>
-</AppBar>
-<TabPanel value={value} index={0}>
-  Item One
-</TabPanel>
-<TabPanel value={value} index={1}>
-  Item Two
-</TabPanel>
-<TabPanel value={value} index={2}>
-  Item Three
-</TabPanel>
+                <label htmlFor="analyze" className="experimentLabel">Analyze</label>
+                <input className="experimentInput" type="text" name="analyze" id="analyze" placeholder='<Objext(s) of study>' />
+
+                <br />
+                <br />
+
+                <label htmlFor="purpose" className="experimentLabel">For the propose of</label>
+                <input type="text" name="purpose" id="purpose" placeholder='<Purpose>' className="experimentInput" />
+
+
+                <br />
+                <br />
+
+                <label htmlFor="quality" className="experimentLabel">with respect to their </label>
+                <input type="text" name="quality" id="quality" placeholder='<Quality focus>' className="experimentInput" />
+
+
+                <br />
+                <br />
+
+                <label htmlFor="perspective" className="experimentLabel">from the point of view of the</label>
+                <input type="text" name="perspective" id="perspective" placeholder=' <Perspective>' className="experimentInput" />
+
+                <br />
+                <br />
+
+
+                <label htmlFor="context" className="experimentLabel">in the context of</label>
+                <input type="text" name="context" id="context" placeholder=' <Context>' className="experimentInput" />
+
+                <button className='blue_button saveButton'>Save</button>
+
+              </div>
+
+            </Tab>
+            <Tab eventKey="planning" title="Planning">
+              <h1>Planning</h1>
+            </Tab>
+            <Tab eventKey="operation" title="Operation">
+              <h1>Operation</h1>
+            </Tab>
+            <Tab eventKey="analysis" title="Analysis & Interpretation">
+              <h1>Analysis & Interpretation</h1>
+            </Tab>
+            <Tab eventKey="report" title="Report">
+              <h1>Report</h1>
+            </Tab>
+          </Tabs>
+        </div>
       </div>
     )
   }
