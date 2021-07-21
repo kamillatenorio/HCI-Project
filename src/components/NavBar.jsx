@@ -7,15 +7,12 @@ import { Router } from 'react-router-dom';
 
 function NavBar() {
     const currentUrl = window.location.href;
+    // const currentUrl = useLocation();
     return (
-    <div>
-        <nav class="navbar fixed-top navbar-light " style={{backgroundColor: '#3D5287'}}>
-            <a class="navbar-brand" style={{color: '#ffffff'}} href="#">EXPERIMENTE</a>
-        </nav>
-        {/* <div className="NavBar"> 
+        <div className="NavBar"> 
             <div className="leftSide">
                 <div className="links">
-                    <a href="userprofile"><p>EXPERIMENTE</p></a>
+                    <a href="userprofile"><p style={{fontSize:'xx-large', marginLeft:'3px', textDecoration:'none'}}>EXPERIMENTE</p></a>
                 </div>
             </div>
             <div className="rightSide">
@@ -26,7 +23,7 @@ function NavBar() {
                     </div>
                 </div>
                 <div>
-                {currentUrl === "http://localhost:3000/" || currentUrl === "http://localhost:3000/login" || currentUrl === "http://localhost:3000/login?" || currentUrl === "http://localhost:3000/signup" ? (
+                {currentUrl === "http://localhost:3000/" || currentUrl === "http://localhost:3000/login" || currentUrl === "http://localhost:3000/signup" ? (
                     <div className="linkSign">
                         <a href="/login"> <b>SIGN IN </b> |  </a>     
                         <a href="/signup"> <b>SIGN UP </b> </a>
@@ -37,8 +34,7 @@ function NavBar() {
                     )}
                 </div>
             </div>
-        </div> */}
-    </div>
+        </div>
     )
 }
 
