@@ -20,13 +20,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-family: Palatino;
   font-style: normal;
   font-weight: bold;
-  
-
   color: white;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
 .NavBar .leftSide .links{
@@ -99,9 +101,14 @@ body {
 
 #profile_image{
   max-width: 100px;
-  margin-top: 60px;
-  margin-left: 160px;
+
 }
+
+.image {
+  flex-basis: 40%;
+  display: inline-block;
+}
+
 
 #profile_information{
   color: black;
@@ -109,7 +116,8 @@ body {
   font-family: 'Poppins', sans-serif;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 300px;
+  margin-left: 15px;
+  position: absolute;
 }
 
 #sign_up_form{
@@ -166,8 +174,15 @@ body {
 
 .experiments_table{
   margin-top: 30px;
-  margin-right: 50px;
-  margin-left: 300px;
+  margin-right: 18%;
+  margin-left: 18%;
+
+}
+
+#experiment_button{
+  margin-left: 0%;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width:850px) {
@@ -213,6 +228,9 @@ body {
   inline{
     display: inline-block;
   }
+    .content{
+      width: 80%;
+    }
 
   logo {
       color: white;

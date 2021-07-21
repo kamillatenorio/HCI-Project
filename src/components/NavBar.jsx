@@ -12,7 +12,7 @@ function NavBar() {
         <div className="NavBar"> 
             <div className="leftSide">
                 <div className="links">
-                    <p style={{fontSize:'xx-large', marginLeft:'10px'}}>EXPERIMENTE</p>
+                    <a href="userprofile"><p style={{fontSize:'xx-large', marginLeft:'3px', textDecoration:'none'}}>EXPERIMENTE</p></a>
                 </div>
             </div>
             <div className="rightSide">
