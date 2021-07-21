@@ -7,7 +7,6 @@ import { Router } from 'react-router-dom';
 
 function NavBar() {
     const currentUrl = window.location.href;
-    // const currentUrl = useLocation();
     return (
         <div className="NavBar"> 
             <div className="leftSide">
@@ -23,7 +22,7 @@ function NavBar() {
                     </div>
                 </div>
                 <div>
-                {currentUrl === "http://localhost:3000/" || currentUrl === "http://localhost:3000/login" || currentUrl === "http://localhost:3000/signup" ? (
+                {currentUrl === "http://localhost:3000/" || currentUrl === "http://localhost:3000/login" || currentUrl === "http://localhost:3000/signup" || currentUrl === "http://localhost:3000/login?" ? (
                     <div className="linkSign">
                         <a href="/login"> <b>SIGN IN </b> |  </a>     
                         <a href="/signup"> <b>SIGN UP </b> </a>
