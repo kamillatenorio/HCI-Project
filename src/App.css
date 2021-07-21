@@ -135,6 +135,7 @@ body {
   border-radius: 8px;
   margin: 10px;
   margin-left: 30px;
+  margin-right: auto;
  }
 
  .experimentTitle{
@@ -144,6 +145,10 @@ body {
    padding-top: 20px;
   }
 
+  .experimentRadio{
+    margin-left: 20px;
+    margin-right: 5px;
+  }
 #profile_image{
   max-width: 100px;
 
