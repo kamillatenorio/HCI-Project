@@ -1,6 +1,5 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route,  Redirect } from 'react-router-dom';
 import Login from '../src/views/Login.jsx';
 import SignUp from '../src/views/SignUp.jsx';
