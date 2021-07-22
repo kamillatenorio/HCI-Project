@@ -7,7 +7,7 @@ function NavBar() {
         <div>
             <nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#3D5287'}} >
             <div class="container">
-            <a class="navbar-brand" href="#"><span className="name">EXPERIMENT</span></a>
+            <a class="navbar-brand" href="/userprofile"><span className="name">EXPERIMENT</span></a>
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
                     {/* <li class="nav-item">
                         <img class="navbar-brand" src= {BRFlag} alt="BRflag" className="BRflag"/>

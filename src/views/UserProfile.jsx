@@ -6,7 +6,7 @@ class UserProfile extends Component {
     render() {
         return (
             <div className="content">
-                <div class="container" style={{ marginLeft: '18%' }}>
+                <div class="container" style={{ marginLeft: '18%', marginTop:'5%' }}>
                     <div class="image">
                         <img id="profile_image" src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png" />
                     </div>
