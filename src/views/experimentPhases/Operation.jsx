@@ -9,11 +9,7 @@ class Operation extends Component {
       <div>
         <NavBarExp/>
         <div class="container" style={{ maxWidth: '65%' }}>
-          <Tabs id="uncontrolled-tab-example2" className="mb-3">
-            <Tab eventKey="operation" title="Operation">
               <p style={{ marginLeft: '14%' }}>The experiment operation will be made by another tool, which can be accessed <a href="#" target="__Blank">HERE</a>.</p>
-            </Tab>
-          </Tabs>
         </div>
       </div>
     )
