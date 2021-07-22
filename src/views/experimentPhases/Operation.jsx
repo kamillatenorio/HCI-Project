@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import  '../../App.css';
 import NavBarExp from '../../components/NavBarExp';
-import { Tabs, Tab } from 'react-bootstrap';
 
 class Operation extends Component {
   render() {
