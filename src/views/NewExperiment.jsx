@@ -21,7 +21,7 @@ class NewExperiment extends Component {
                 fontSize: 'x-large',
                 fontWeight: 'bold'
               }} for='title'>Title</label> <br />
-              <input className='input_data' type="text" name="title" id="title" />
+              <input class="form-control" type="text" name="title" id="title"  placeholder="Enter the experiment title"/>
 
               <br />
               <br />
@@ -30,8 +30,8 @@ class NewExperiment extends Component {
                 fontSize: 'x-large',
                 fontWeight: 'bold'
               }} htmlFor="description">Description</label><br />
-              <textarea className='input_data'
-                name="description" id="" cols="50" rows="5"></textarea>
+              <textarea class="form-control"
+                name="description" id="" cols="50" rows="5" placeholder="Give a brief description of your experiment."></textarea>
 
               <br />
 
