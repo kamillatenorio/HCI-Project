@@ -6,11 +6,13 @@ class NewExperiment extends Component {
     return (
       <div className="content">
         <div style={{ width: '100%', marginLeft: '19%', marginRight: '16%' }}>
-          <div>
+          <div style={{width:'61%'}}>
             <p style={{
               fontWeight: 'bold', fontSize: 'xx-large', marginTop: '20px',
               color: '#727070'
             }}>CREATE A NEW EXPERIMENT</p>
+
+              <hr class="dotted"></hr>
           </div>
           <div style={{ width: '61%' }}>
             <form action="/scope">

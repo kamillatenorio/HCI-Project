@@ -163,7 +163,7 @@ class Scope extends Component {
 
             </Tab>
             <Tab eventKey="operation" title="Operation">
-              <p style={{ marginLeft: '14%' }}>The experiment operation will be made by another tool, which can be accessed <a href="#" target="__Blank">HERE</a>.</p>
+              <p>The experiment operation will be made by another tool, which can be accessed <a href="#" target="__Blank">HERE</a>.</p>
             </Tab>
             <Tab eventKey="analysis" title="Analysis & Interpretation">
               <h1>Analysis & Interpretation</h1>
@@ -191,6 +191,9 @@ class Scope extends Component {
                   <option value="valor1" >Option 3</option>
                 </select>
 
+                <br/><br/>
+                
+                <button className="blue_button saveButton">Send</button>
               </div>
             </Tab>
             <Tab eventKey="report" title="Report">

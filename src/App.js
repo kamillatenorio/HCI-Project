@@ -13,6 +13,8 @@ import Analysis from './views/experimentPhases/Analysis';
 import Report from './views/experimentPhases/Report';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Reset from './views/Reset';
+import SignUpMain from './views/SignUpMain';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
             <Route path="/operation" component = {Operation}/>
             <Route path="/analysis" component = {Analysis}/>
             <Route path="/report" component = {Report}/>
+            <Route path="/reset" component = {Reset}/>
+            <Route path="/signUp" component = {SignUpMain}/>
             <Redirect to="/"/>
         </Switch>
       </ BrowserRouter>    

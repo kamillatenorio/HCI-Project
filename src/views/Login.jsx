@@ -18,7 +18,7 @@ class Login extends Component {
                 Sign in
               </button>
               <a style={{fontWeight: 'normal',fontSize:'large', float: 'right', marginTop: '25px'}}
-                href='/'>Forgot your password?</a>
+                href='/reset'>Forgot your password?</a>
             </form>
           </div>
     )
