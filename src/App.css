@@ -160,6 +160,25 @@ body {
     margin: 10px;
  }
 
+ .selctionVariables{
+   float: none !important;
+   width: 100% !important;
+ }
+
+ .redButton{
+   background-color: #CC4D4D;
+   color: white;
+   margin-right: 0px;
+   height: 40px;
+   width: 200px;
+ }
+
+ .selectionTextArea{
+   width: 100%;
+   margin-left: 10px;
+   border-radius: 8px;
+ }
+
  .experimentTextArea{
   width: 95%;
   border-radius: 8px;
