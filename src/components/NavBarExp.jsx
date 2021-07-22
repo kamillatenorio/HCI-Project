@@ -28,6 +28,7 @@ class NavBarExp extends Component {
                     </ul>
                 </div>
             </nav>
+            <br/>
         </div>
     )
   }
