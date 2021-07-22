@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import  '../../App.css';
 import NavBarExp from '../../components/NavBarExp';
+import Navigation from '../Navigation';
 
 class Report extends Component {
   render() {
     return (
       <div>
+        <Navigation/>
         <NavBarExp/>
         <div class="container" style={{ maxWidth: '65%' }}>
               <div className="experimentDiv">

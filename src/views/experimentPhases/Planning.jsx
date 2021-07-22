@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import  '../../App.css';
 import NavBarExp from '../../components/NavBarExp';
 import { Tabs, Tab } from 'react-bootstrap';
+import Navigation from '../Navigation';
 
 class Planning extends Component {
   render() {
     return (
       <div>
+        <Navigation/>
         <NavBarExp/>
         <div class="container" style={{ maxWidth: '65%' }}>
           <Tabs id="uncontrolled-tab-example2" className="mb-3">
