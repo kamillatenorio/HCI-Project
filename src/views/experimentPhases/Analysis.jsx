@@ -9,8 +9,6 @@ class Analysis extends Component {
       <div>
         <NavBarExp/>
         <div class="container" style={{ maxWidth: '65%' }}>
-          <Tabs id="uncontrolled-tab-example2" className="mb-3">
-          <Tab eventKey="analysis" title="Analysis & Interpretation">
               <h1>Analysis & Interpretation</h1>
               <div className="experimentDiv">
                 <p className="experimentLabel">Descriptive Analysis</p>
@@ -32,8 +30,6 @@ class Analysis extends Component {
                   <option value="valor1" >Option 3</option>
                 </select>
               </div>
-            </Tab>
-          </Tabs> 
         </div>
       </div>
     )
