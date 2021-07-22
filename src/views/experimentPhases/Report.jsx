@@ -9,8 +9,6 @@ class Report extends Component {
       <div>
         <NavBarExp/>
         <div class="container" style={{ maxWidth: '65%' }}>
-          <Tabs id="uncontrolled-tab-example2" className="mb-3">
-          <Tab eventKey="report" title="Report">
               <div className="experimentDiv">
                 <p className="experimentTitle">Download a Report</p>
                 <hr class="dotted experimentDot"></hr>
@@ -92,8 +90,6 @@ class Report extends Component {
 
                 <button className="blue_button saveButton">Save</button>
               </div>
-            </Tab>
-          </Tabs>
         </div>
       </div>
     )
