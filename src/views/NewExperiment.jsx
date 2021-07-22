@@ -35,11 +35,11 @@ class NewExperiment extends Component {
 
               <br />
 
-              <button style={{ fontSize:'large' ,marginTop: '15px', color: 'white', backgroundColor: '#3D5287' }}>
+              <button style={{ fontSize:'large' ,marginTop: '15px', color: 'white', backgroundColor: '#3D5287', borderRadius: '5px' }}>
                 Create Experiment
               </button>
 
-              <button style={{ fontSize:'large', marginTop: '15px', marginLeft: '15px' }}>
+              <button style={{ fontSize:'large', marginTop: '15px', marginLeft: '15px', borderRadius: '5px' }}>
                 Cancel
               </button>
 
