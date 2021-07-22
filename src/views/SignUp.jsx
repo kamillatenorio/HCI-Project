@@ -9,6 +9,7 @@ class SignUp extends Component {
           <div id="sign_up_text">
             <p>Conduct Experiments in Adaptive Gamified Learning Environments</p>
           </div>
+          
           <div id="sign_up_form">
             <p id="text_sign_up">Sign Up for EXPERIMENTE</p>
             <form action="/login">

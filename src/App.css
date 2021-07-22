@@ -265,13 +265,13 @@ body {
 
 #sign_up_text{
   width: 50%;
-  display: inline-block;
-  vertical-align: middle;
   font-size: xx-large;
-  text-align: center;
-  margin-top: 200px;
   margin-left: 50px;
   font-weight: bold;
+  float: left;
+  vertical-align: middle;
+  margin-top: 20%;
+  margin-right: 10%;
 }
 
 .experiments_table{
@@ -335,9 +335,10 @@ body {
   inline{
     display: inline-block;
   }
-    .content{
-      width: 80%;
-    }
+  
+  .content{
+    width: 80%;
+  }
 
   logo {
       color: white;
