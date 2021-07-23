@@ -4,7 +4,7 @@ class SignUpMain extends Component {
   render() {
     return (
       <div id="sign_up_form" style={{ marginLeft: '35%' }}>
-        <p id="text_sign_up">Sign Up for EXPERIMENTE</p>
+        <h1 id="text_sign_up">Sign Up for EXPERIMENTE</h1>
         <form action="/login">
           <label for="username" class="labels_form">Username</label>
           <input type="text" class="form-control" id="username" placeholder="Enter your username"/><br />

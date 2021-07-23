@@ -6,11 +6,11 @@ class SignUp extends Component {
       <div class="container">
         <center>
           <div id="sign_up_text">
-            <p>Conduct Experiments in Adaptive Gamified Learning Environments</p>
+            <h1>Conduct Experiments in Adaptive Gamified Learning Environments</h1>
           </div>
           
           <div id="sign_up_form">
-            <p id="text_sign_up">Sign Up for EXPERIMENTE</p>
+            <h1 id="text_sign_up">Sign Up for EXPERIMENTE</h1>
             <form action="/login">
               <label for="username" class="labels_form">Username</label>
               <input type="text" class="form-control" id="username" placeholder="Enter your username"/><br />
