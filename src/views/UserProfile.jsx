@@ -12,7 +12,7 @@ class UserProfile extends Component {
                     </div>
                     <div id="profile_information">
                         <span style={{ color: "#3D5287", fontWeight: 'bold' }}>Joana Vicente</span> <br />
-                        <span>1 Followers | 0 Following</span>
+                        <span>2 Followers | 0 Following</span>
                         <br />
 
                         <a href='login'><button
