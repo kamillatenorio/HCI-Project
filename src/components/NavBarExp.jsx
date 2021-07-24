@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class NavBarExp extends Component {
   render() {
@@ -10,20 +11,30 @@ class NavBarExp extends Component {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav justify-content-between w-100">
-                        <li class="nav-item active">
-                            <a class="nav-link" style={{color: '#ffffff'}} href="/scope"> Scope </a>
+                        <li class="nav-item">
+                            <NavLink to="/scope" className="nav-link" style={{color: '#ffffff'}} activeStyle={{ fontWeight: 'bold' }}> 
+                                Scope 
+                            </NavLink>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" style={{color: '#ffffff'}} href="/planning"> Planning </a>
+                        <li class="nav-item">
+                            <NavLink to="/planning" className="nav-link" style={{color: '#ffffff'}} activeStyle={{ fontWeight: 'bold' }}> 
+                                Planning 
+                            </NavLink>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" style={{color: '#ffffff'}} href="/operation"> Conduction </a>
+                        <li class="nav-item">
+                            <NavLink to="/operation" className="nav-link" style={{color: '#ffffff'}} activeStyle={{ fontWeight: 'bold' }}> 
+                                Conduction 
+                            </NavLink>
                         </li>
-                        <li class="nav-item active ">
-                            <a class="nav-link" style={{color: '#ffffff'}} href="/analysis"> Analysis & Interpretation </a>
+                        <li class="nav-item">
+                            <NavLink to="/analysis" className="nav-link" style={{color: '#ffffff'}} activeStyle={{ fontWeight: 'bold' }}> 
+                                Analysis & Interpretation 
+                            </NavLink>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" style={{color: '#ffffff'}} href="/report"> Report </a>
+                        <li class="nav-item">
+                            <NavLink to="/report" className="nav-link" style={{color: '#ffffff'}} activeStyle={{ fontWeight: 'bold' }}> 
+                                Report 
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
