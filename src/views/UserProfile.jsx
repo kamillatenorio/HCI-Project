@@ -8,17 +8,14 @@ class UserProfile extends Component {
             <div className="content">
                 <div class="container" style={{ marginLeft: '18%', marginTop:'5%' }}>
                     <div class="image">
-                        <img id="profile_image" src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png" alt="Foto de perfil do(a) usuário(a)."/>
+                        <img id="profile_image" src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png" alt="Profile picture of the user Joana Vicente."/>
                     </div>
                     <div id="profile_information">
                         <span style={{ color: "#3D5287", fontWeight: 'bold' }}>Joana Vicente</span> <br />
                         <span>2 Followers | 0 Following</span>
                         <br />
 
-                        <a href='login'><button
-                            style={{
-                                borderRadius: '5px'
-                            }}>Edit Profile</button></a>
+                        <a href='#'><button style={{ borderRadius: '5px' }}>Edit Profile</button></a>
                     </div>
                 </div>
                 <br />
