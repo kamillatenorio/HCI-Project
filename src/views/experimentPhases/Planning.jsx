@@ -17,7 +17,7 @@ class Planning extends Component {
 
                 <p className="experimentTitle">Context Detailing</p>
                 <hr class="dotted experimentDot"></hr>
-                <textarea name="quality" id="quality" className="experimentTextArea" rows='6' />
+                <textarea name="quality" id="quality" placeholder='Detail the context of your experiment.' className="experimentTextArea" rows='6' />
 
                 <br />
 
@@ -29,12 +29,11 @@ class Planning extends Component {
 
                 <p className="experimentTitle">Selection of Variables</p>
 
-                <p style={{ marginLeft: '10px' }}>Inform your independent and dependente variables and press Enter to add.</p>
                 <hr class="dotted experimentDot"></hr>
 
                 <div style={{ marginLeft: '10px', width: '40%', display: 'inline-block' }}>
                   <p>Independent variables</p>
-                  <input type="text" name="independent" id="independent" className="experimentInput selctionVariables" />
+                  <input placeholder='Inform an independent variable and press Enter to add.' type="text" name="independent" id="independent" className="experimentInput selctionVariables" />
                   <textarea className="selectionTextArea" name="variable" id="variable" cols="30" rows="5"></textarea>
 
                   <button className='saveButton redButton'>Remove Selected</button>
@@ -42,7 +41,7 @@ class Planning extends Component {
 
                 <div style={{ width: '40%', float: 'right', marginRight: '30px' }}>
                   <p>Dependent variables</p>
-                  <input type="text" name="independent" id="independent" className="experimentInput selctionVariables" />
+                  <input placeholder='Inform an dependent variable and press Enter to add.' type="text" name="independent" id="independent" className="experimentInput selctionVariables" />
                   <textarea className="selectionTextArea" name="variable" id="variable" cols="30" rows="5"></textarea>
 
                   <button className='saveButton redButton'>Remove Selected</button>
@@ -54,16 +53,17 @@ class Planning extends Component {
               <div className="experimentDiv">
 
                 <p className="experimentTitle">Formulation of Hypotheses</p>
+                <hr class="dotted experimentDot"></hr>
 
                 <label htmlFor="perspective" className="experimentLabel">Null Hypothesis</label>
-                <input type="text" name="perspective" id="perspective" className="experimentInput" />
+                <input placeholder="Add your null hypothesis." type="text" name="perspective" id="perspective" className="experimentInput" />
 
                 <br />
                 <br />
 
 
                 <label htmlFor="context" className="experimentLabel">Alternative Hypothesis</label>
-                <input type="text" name="context" id="context" className="experimentInput" />
+                <input placeholder="Add your alternative hypothesis." type="text" name="context" id="context" className="experimentInput" />
 
                 <button className='blue_button saveButton'>Add Hypothesis</button>
               </div>
@@ -73,7 +73,7 @@ class Planning extends Component {
 
                 <p className="experimentTitle">Selection of Subjects</p>
                 <hr class="dotted experimentDot"></hr>
-                <textarea name="quality" id="quality" className="experimentTextArea" rows='6' />
+                <textarea placeholder="Detail the subjects that will be participating in your experiment." name="quality" id="quality" className="experimentTextArea" rows='6' />
 
                 <br />
 
@@ -141,11 +141,12 @@ class Planning extends Component {
               <div className="experimentDiv">
 
                 <p className="experimentTitle">Formulation of Hypotheses</p>
+                <hr class="dotted experimentDot"></hr>
 
                 <div>
                   <p>Experiment Objects</p>
                   <label htmlFor="perspective" className="experimentLabel"> Name </label>
-                  <input type="text" name="perspective" id="perspective" className="experimentInput" />
+                  <input placeholder="Add the names of the experiment objects." type="text" name="perspective" id="perspective" className="experimentInput" />
                   <button className="blue_button saveButton">Save</button>
                 </div>
 
@@ -154,7 +155,7 @@ class Planning extends Component {
 
                 <div><p>Guidelines</p>
                   <label htmlFor="perspective" className="experimentLabel"> Name </label>
-                  <input type="text" name="perspective" id="perspective" className="experimentInput" />
+                  <input placeholder="Add the names of the guidelines." type="text" name="perspective" id="perspective" className="experimentInput" />
                   <button className="blue_button saveButton">Save</button>
                 </div>
 
@@ -164,7 +165,7 @@ class Planning extends Component {
                 <div>
                   <p>Measurement</p>
                   <label htmlFor="perspective" className="experimentLabel"> Name </label>
-                  <input type="text" name="perspective" id="perspective" className="experimentInput" />
+                  <input placeholder="Add the name of the measurement." type="text" name="perspective" id="perspective" className="experimentInput" />
                   <button className="blue_button saveButton">Save</button>
                 </div>
 
