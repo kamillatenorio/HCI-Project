@@ -4,9 +4,9 @@ import '../App.css';
 class NewExperiment extends Component {
   render() {
     return (
-      <div className="content">
-        <div style={{ width: '100%', marginLeft: '19%', marginRight: '16%' }}>
-          <div style={{width:'61%'}}>
+      <div className="content"> 
+        <div  class="container" style={{ maxWidth: '65%' }}>
+          <div>
             <p style={{
               fontWeight: 'bold', fontSize: 'xx-large', marginTop: '20px',
               color: '#727070'
@@ -14,7 +14,7 @@ class NewExperiment extends Component {
 
               <hr class="dotted"></hr>
           </div>
-          <div style={{ width: '61%' }}>
+          <div >
             <form action="/scope">
 
               <label style={{
