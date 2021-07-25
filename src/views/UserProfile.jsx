@@ -45,7 +45,7 @@ class UserProfile extends Component {
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Gamification and Flow Experience</td>
+                                <td><a href='/scope'>Gamification and Flow Experience</a></td>
                                 <td>Joana Vicente, Kamila Rios</td>
                                 <td>Sat Jul 22 2021 </td>
                             </tr>
