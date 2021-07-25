@@ -315,6 +315,7 @@ body {
 }
 
 @media only screen and (max-width:750px) {
+
   .NavBar .leftSide .links a {
     font-size: 20px;
   }
@@ -358,4 +359,26 @@ body {
   }
 }
 
+
+@media only screen and (max-width:600px) {
+
+  .NavBar .leftSide .links a {
+    font-size: 10px;
+  }
+  .NavBar .rightSide .linkSign a{
+    text-decoration: none;
+    color:white;
+    font-size: 10px;
+    font-family: Palatino;
+  }
+  
+  logo {
+      color: white;
+      font-family: 'Times New Roman', Times, serif
+  } 
+
+  .name {
+    font-size: 15px;
+  }
+}
 
