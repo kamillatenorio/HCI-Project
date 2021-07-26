@@ -22,7 +22,7 @@ class Scope extends Component {
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Definition of Objective </h5>
+                      <h5 class="modal-title" id="exampleModalLabel1">Definition of Objective </h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -89,8 +89,8 @@ class Scope extends Component {
                 <br />
 
 
-                <label htmlFor="context" className="experimentLabel">in the context of</label>
-                <input type="text" name="context" id="context" placeholder=' <Add the context>' className="experimentInput" />
+                <label htmlFor="p_context" className="experimentLabel">in the context of</label>
+                <input type="text" name="context" id="p_context" placeholder=' <Add the context>' className="experimentInput" />
 
                 <button className='blue_button saveButton'>Save</button>
 
@@ -107,7 +107,7 @@ class Scope extends Component {
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Definition of Objective </h5>
+                      <h5 class="modal-title" id="exampleModalLabel2">Definition of Objective </h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -132,32 +132,32 @@ class Scope extends Component {
                 <hr class="dotted experimentDot"></hr>
 
 
-                <label htmlFor="quality" className="experimentLabel">Population</label>
-                <input type="text" name="quality" id="quality" placeholder='Add the population in which the evidence is going to be collected.' className="experimentInput" />
+                <label htmlFor="population" className="experimentLabel">Population</label>
+                <input type="text" name="quality" id="population" placeholder='Add the population in which the evidence is going to be collected.' className="experimentInput" />
 
                 <br />
                 <br />
 
-                <label htmlFor="quality" className="experimentLabel">Intervation</label>
-                <input type="text" name="quality" id="quality" placeholder='Add the intervention that is going to be applied in the empirical study.' className="experimentInput" />
+                <label htmlFor="intervation" className="experimentLabel">Intervation</label>
+                <input type="text" name="quality" id="intervation" placeholder='Add the intervention that is going to be applied in the empirical study.' className="experimentInput" />
 
                 <br />
                 <br />
 
-                <label htmlFor="quality" className="experimentLabel">Comparsion</label>
-                <input type="text" name="quality" id="quality" placeholder='Add the comparison to which the intervention is going to be compared.' className="experimentInput" />
+                <label htmlFor="comparsion" className="experimentLabel">Comparsion</label>
+                <input type="text" name="quality" id="comparsion" placeholder='Add the comparison to which the intervention is going to be compared.' className="experimentInput" />
 
                 <br />
                 <br />
 
-                <label htmlFor="quality" className="experimentLabel">Outcome</label>
-                <input type="text" name="quality" id="quality" placeholder='Add the expected outcome of the experiment.' className="experimentInput" />
+                <label htmlFor="outcome" className="experimentLabel">Outcome</label>
+                <input type="text" name="quality" id="outcome" placeholder='Add the expected outcome of the experiment.' className="experimentInput" />
 
                 <br />
                 <br />
 
-                <label htmlFor="quality" className="experimentLabel">Context</label>
-                <input type="text" name="quality" id="quality" placeholder='Add the context of the experiment.' className="experimentInput" />
+                <label htmlFor="context" className="experimentLabel">Context</label>
+                <input type="text" name="quality" id="context" placeholder='Add the context of the experiment.' className="experimentInput" />
 
                 <br />
 
@@ -175,7 +175,7 @@ class Scope extends Component {
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Definition of Objective </h5>
+                      <h5 class="modal-title" id="exampleModalLabel3">Definition of Objective </h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -194,14 +194,14 @@ class Scope extends Component {
                 <hr class="dotted experimentDot"></hr>
 
 
-                <label htmlFor="quality" className="experimentLabel">RQ1</label>
-                <input type="text" name="quality" id="quality" className="experimentInput" placeholder="Enter your first research question"/>
+                <label htmlFor="rq1" className="experimentLabel">RQ1</label>
+                <input type="text" name="quality" id="rq1" className="experimentInput" placeholder="Enter your first research question"/>
 
                 <br />
                 <br />
 
-                <label htmlFor="quality" className="experimentLabel">RQ2</label>
-                <input type="text" name="quality" id="quality" className="experimentInput" placeholder="Enter your second research question" />
+                <label htmlFor="rq2" className="experimentLabel">RQ2</label>
+                <input type="text" name="quality" id="rq2" className="experimentInput" placeholder="Enter your second research question" />
 
                 <br />
 
@@ -218,7 +218,7 @@ class Scope extends Component {
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Definition of Objective </h5>
+                      <h5 class="modal-title" id="exampleModalLabel4">Definition of Objective </h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -236,20 +236,20 @@ class Scope extends Component {
                 <hr class="dotted experimentDot"></hr>
 
 
-                <label htmlFor="quality" className="experimentLabel"> What is already known about this topic?</label> <br />
-                <textarea name="quality" id="quality" placeholder='Add what is already known about this subject according to the scientific literature.' className="experimentTextArea" rows='6' />
+                <label htmlFor="n1" className="experimentLabel"> What is already known about this topic?</label> <br />
+                <textarea name="quality" id="n1" placeholder='Add what is already known about this subject according to the scientific literature.' className="experimentTextArea" rows='6' />
 
                 <br />
                 <br />
 
-                <label htmlFor="quality" className="experimentLabel"> What this experiment add?</label> <br />
-                <textarea name="quality" id="quality" placeholder='Add what this experiment add in the current scientific literature.' className="experimentTextArea" rows='6' />
+                <label htmlFor="n2" className="experimentLabel"> What this experiment add?</label> <br />
+                <textarea name="quality" id="n2" placeholder='Add what this experiment add in the current scientific literature.' className="experimentTextArea" rows='6' />
 
                 <br />
                 <br />
 
-                <label htmlFor="quality" className="experimentLabel"> Implications for practice and/or policy </label> <br />
-                <textarea name="quality" id="quality" placeholder='Add the implications for practice and/or policy of this experiment.' className="experimentTextArea" rows='6' />
+                <label htmlFor="n3" className="experimentLabel"> Implications for practice and/or policy </label> <br />
+                <textarea name="quality" id="n3" placeholder='Add the implications for practice and/or policy of this experiment.' className="experimentTextArea" rows='6' />
 
                 <br />
 

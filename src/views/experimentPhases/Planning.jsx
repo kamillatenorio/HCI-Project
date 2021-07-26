@@ -92,7 +92,7 @@ class Planning extends Component {
                 <div style={{ width: '40%', float: 'right', marginRight: '30px' }}>
                   <p>Dependent variables</p>
                   <input placeholder='Inform an dependent variable and press Enter to add.' type="text" name="independent" id="independent" className="experimentInput selctionVariables" />
-                  <textarea className="selectionTextArea" name="variable" id="variable" cols="30" rows="5"></textarea>
+                  <textarea className="selectionTextArea" name="variable2" id="variable2" cols="30" rows="5"></textarea>
 
                   <button className='saveButton redButton'>Remove Selected</button>
                 </div>
@@ -224,12 +224,12 @@ class Planning extends Component {
                 <hr class="dotted experimentDot"></hr>
                 <p style={{ marginLeft: '10px' }}>Randomization</p>
                 <div style={{ marginLeft: '10px' }}>
-                  <input type="radio" className="randomization" id="randomization" name="randomization" />
+                  <input type="radio" className="randomization" id="y" name="randomization" />
                   <label htmlFor="scope" style={{ marginLeft: '5px' }}>Yes</label>
                 </div>
 
                 <div style={{ marginLeft: '10px' }}>
-                  <input type="radio" className="randomization" id="randomization" name="randomization" />
+                  <input type="radio" className="randomization" id="n" name="randomization" />
                   <label htmlFor="scope" style={{ marginLeft: '5px' }}>No</label>
                 </div>
 
@@ -319,7 +319,7 @@ class Planning extends Component {
 
                 <div><p>Guidelines</p>
                   <label htmlFor="perspective" className="experimentLabel"> Name </label>
-                  <input placeholder="Add the names of the guidelines." type="text" name="perspective" id="perspective" className="experimentInput" />
+                  <input placeholder="Add the names of the guidelines." type="text" name="guidelines" id="guidelines" className="experimentInput" />
                   <button className="blue_button saveButton">Save</button>
                 </div>
 
@@ -329,7 +329,7 @@ class Planning extends Component {
                 <div>
                   <p>Measurement</p>
                   <label htmlFor="perspective" className="experimentLabel"> Name </label>
-                  <input placeholder="Add the name of the measurement." type="text" name="perspective" id="perspective" className="experimentInput" />
+                  <input placeholder="Add the name of the measurement." type="text" name="measurement" id="measurement" className="experimentInput" />
                   <button className="blue_button saveButton">Save</button>
                 </div>
 
