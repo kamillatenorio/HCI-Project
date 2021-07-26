@@ -16,7 +16,7 @@ function NavBar() {
                         <img class="navbar-brand" src= {USAFlag} alt="BRflag" className="USAflag"/>
                     </li> */}
                     <div>
-                       {currentUrl === "http://localhost:3000/" || currentUrl === "http://localhost:3000/login" || currentUrl === "http://localhost:3000/signup" || currentUrl === "http://localhost:3000/login?" || currentUrl === "http://localhost:3000/reset" ||currentUrl === "http://experimente-hci.herokuapp.com/" || currentUrl === "http://experimente-hci.herokuapp.com/login" || currentUrl === "http://experimente-hci.herokuapp.com/signup" || currentUrl === "http://experimente-hci.herokuapp.com/login?" || currentUrl === "http://experimente-hci.herokuapp.com/reset"? (
+                       {currentUrl === "http://localhost:3000/" || currentUrl === "http://localhost:3000/login" || currentUrl === "http://localhost:3000/signup" || currentUrl === "http://localhost:3000/login?" || currentUrl === "http://localhost:3000/reset" ||currentUrl === "https://experimente-hci.herokuapp.com/" || currentUrl === "https://experimente-hci.herokuapp.com/login" || currentUrl === "https://experimente-hci.herokuapp.com/signup" || currentUrl === "https://experimente-hci.herokuapp.com/login?" || currentUrl === "https://experimente-hci.herokuapp.com/reset"? (
                         <div>
                             <a class="navbar-brand" href="/login" > <span className="nameUser">Sign in </span></a> <span style={{color: '#ffffff'}}>| </span>  
                             <a class="navbar-brand" href="/signup" > <span className="nameUser">  Sign up </span></a>
