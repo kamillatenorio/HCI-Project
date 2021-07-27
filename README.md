@@ -23,4 +23,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 #### Project developed for the HCI course at the University of São Paulo.
-#### Authors: [@João Paulo Biazotto](https://biazottoj.github.io), [@KamillaTenorio](https://kamillatenorio.com), [@Laíza Ribeiro Silva](https://github.com/laizaribeiro), [@Vinicius Lopes](https://github.com/lopsvini)
+#### Authors: [@João Paulo Biazotto](https://biazottoj.github.io), [@Kamilla Tenório](https://kamillatenorio.com), [@Laíza Ribeiro Silva](https://github.com/laizaribeiro), [@Vinicius Lopes](https://github.com/lopsvini)
