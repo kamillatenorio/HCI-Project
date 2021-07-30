@@ -24,3 +24,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #### Project developed for the HCI course at the University of São Paulo.
 #### Authors: [@João Paulo Biazotto](https://biazottoj.github.io), [@Kamilla Tenório](https://kamillatenorio.com), [@Laíza Ribeiro Silva](https://github.com/laizaribeiro), [@Vinicius Lopes](https://github.com/lopsvini)
+ 
+ 
