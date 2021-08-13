@@ -107,7 +107,7 @@ class Scope extends Component {
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel2">Definition of Objective </h5>
+                      <h5 class="modal-title" id="exampleModalLabel2">PICOC </h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -175,7 +175,7 @@ class Scope extends Component {
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel3">Definition of Objective </h5>
+                      <h5 class="modal-title" id="exampleModalLabel3">Research Questions  </h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -218,7 +218,7 @@ class Scope extends Component {
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel4">Definition of Objective </h5>
+                      <h5 class="modal-title" id="exampleModalLabel4">Practitioner notes </h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
